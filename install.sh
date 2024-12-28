@@ -58,11 +58,6 @@ function permision() {
 
     output
 clear
-# Ambil Core Depen
-cd /usr/bin
-wget -O rere "https://scvps.rerechanstore.eu.org/rere"
-chmod +x rere
-cd
 }
 
 function full() {
