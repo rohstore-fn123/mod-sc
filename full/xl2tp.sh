@@ -6,7 +6,7 @@
 
 domain=$(cat /etc/xray/domain)
     # Konfigurasi URL izin
-    PERMISSION_URL="https://permision.rerechanstore.eu.org/izin.txt"
+    PERMISSION_URL="https://raw.githubusercontent.com/rohstore-fn123/permission/main/izin.txt"
     LOCAL_IP=$(curl -s ifconfig.me) # Mendapatkan IP lokal
 
     # Fungsi menghitung sisa waktu
