@@ -3,7 +3,7 @@ hosting="https://raw.githubusercontent.com/UmVyZWNoYW4wMgo/Zm4K/refs/heads/main"
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
 #wget -O /root/.config/rclone/rclone.conf "${hosting}/config/rclone.conf"
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/praiman99/AutoScriptVPN-AIO/Beginner/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/rohstore-fn123/AutoScriptVPN-AIO/Beginner/rclone.conf"
 git clone https://github.com/rohstore-fn123/wondershaper.git
 cd wondershaper
 make install
