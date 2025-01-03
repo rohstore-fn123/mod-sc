@@ -7,7 +7,7 @@ hosting="https://scvps.rerechanstore.eu.org/website"
 apt install apache2 php libapache2-mod-php -y
 
 # Melakukan Konfigurasi
-wget -O /etc/apache2/sites-available/upload.conf "${hosting}/upload.conf"
+wget -O /etc/apache2/sites-available/upload.conf "${hosting}/website/upload.conf"
 
 # Membuat Folder
 mkdir -p /var/www/upload
@@ -17,10 +17,10 @@ chown -R www-data:www-data /var/www/uploads
 
 # Memasang File Website
 cd /var/www/upload
-wget --no-check-certificate ${hosting}/index.html >> /dev/null 2>&1
-wget --no-check-certificate ${hosting}/style.css >> /dev/null 2>&1
-wget --no-check-certificate ${hosting}/script.js >> /dev/null 2>&1
-wget --no-check-certificate ${hosting}/upload.php >> /dev/null 2>&1
+wget --no-check-certificate ${hosting}/website/index.html >> /dev/null 2>&1
+wget --no-check-certificate ${hosting}/website/style.css >> /dev/null 2>&1
+wget --no-check-certificate ${hosting}/website/script.js >> /dev/null 2>&1
+wget --no-check-certificate ${hosting}/website/upload.php >> /dev/null 2>&1
 chmod +x *
 cd
 
