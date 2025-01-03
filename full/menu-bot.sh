@@ -57,7 +57,7 @@ botmenu() {
 termbot() {
 install() {
 # [ Repository Bot Telegram ]
-link="https://raw.githubusercontent.com/DindaPutriFN/FN-API/main/bot.zip"
+link="https://raw.githubusercontent.com/rohstore-fn123/FN-API/main/bot.zip"
 
 # [ Membersihkan layar ]
 clear
